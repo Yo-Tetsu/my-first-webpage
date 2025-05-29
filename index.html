@@ -5,25 +5,50 @@
   <title>私の最初のホームページ</title>
   <style>
     body {
-      background-color: white;
-      color: black;
-      font-family: sans-serif;
-      padding: 20px;
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(to right, #ffffff, #f0f0f0);
+      color: #000;
+      font-family: 'Segoe UI', 'Helvetica Neue', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      text-align: center;
     }
+
     h1 {
-      font-size: 2em;
-      margin-bottom: 10px;
+      font-size: 3em;
+      margin-bottom: 20px;
+      text-shadow: 1px 1px 2px #ccc;
     }
-    p {
-      font-size: 1.2em;
-      line-height: 1.6;
+
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+      padding: 30px 40px;
+      max-width: 500px;
+      width: 90%;
+    }
+
+    .info {
+      font-size: 1.3em;
+      margin: 10px 0;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #333;
     }
   </style>
 </head>
 <body>
-  <h1>ようこそ!</h1>
-  <p><strong>名前:</strong> 横山哲</p>
-  <p><strong>学部学科:</strong> リンクをクリックして、クラッシュ・ロワイヤルのフレンドに追加してください！ https://link.clashroyale.com/invite/friend/jp?tag=CQGUCGQQP&token=kwb3rppe&platform=iOS</p>
-  <p><strong>趣味:</strong> 読書、映画鑑賞</p>
+  <h1>Hi✋</h1>
+  <div class="card">
+    <p class="info"><span class="label">名前:</span> 横山哲</p>
+    <p class="info"><span class="label">趣味:</span> 読書、映画鑑賞、ゲーム</p>
+  </div>
 </body>
 </html>
